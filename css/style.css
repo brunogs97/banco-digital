@@ -58,21 +58,23 @@ body {
 }
 
 /*config footer*/
-.cabecalho-footer {
-    margin: 0 8em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    border-bottom: 1px solid var(--blue);
+footer {
+    padding: 1em 0;
 }
+
+.content-header-footer {
+    padding: 2em 0;
+    border-bottom: 1px solid var(--blue);
+  }
+
+  .content-main-footer {
+    padding: 2em;
+  } 
 
 .social-media {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 400px;
-    padding: 2em 0;
 }
 
 .fa-brands {
@@ -89,6 +91,7 @@ body {
     flex-direction: column;
 }
 
+
 .contact {
     background: var(--blue);
     border-radius: 4px;
@@ -103,4 +106,8 @@ body {
 
 .text-contact-footer {
     font-size: 14px;
+}
+
+.link-footer:hover {
+    cursor: pointer;
 }
