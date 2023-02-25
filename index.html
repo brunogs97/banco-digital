@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Banco Digital - Neon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c5ed4752ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg nav-menu">
+      <div class="container-fluid">
+        <img src="./img/logo.svg" class="img-logo" alt="Logo imagem">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+              <a class="nav-link text-light link-warning" href="#">Produtos</a>
+              <a class="nav-link text-light link-warning" href="#">Conta digital PJ</a>
+              <a class="nav-link text-light link-warning" href="#">Quem somos</a>
+              <a class="nav-link text-light link-warning" href="#">Blog</a>
+              <a class="nav-link text-light link-warning" href="#">Ajuda</a>
+          </div>
+          <button type="button" class="btn btn-outline-light rounded-5"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Abra sua conta digital
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 title-modal" id="exampleModalLabel">Entrar</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="exemplo@email.com" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Não compartilharemos o seu e-mail com ninguém.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Senha</label>
+                        <input type="password" class="form-control" placeholder="********" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Mantenha-me conectado</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Entrar</button>
+                    </form>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </nav>
+
+    <section>
+        <div id="carouselExampleAutoplaying" class="carousel slide bg-primary" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/mockup.svg" class="d-block img-carousel" alt="...">
+                <div class="carousel-caption text-end legend-carousel d-none d-md-block">
+                    <h5 class="fs-2 title-legend-carousel">Resolva sua vida direto pelo app!</h5>
+                    <p>Cartão de crédito sem anuidade, sem taxas e mais investimentos.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/mockup-02.png" class="d-block img-carousel" alt="Imagem app">
+                <div class="carousel-caption text-end legend-carousel d-none d-md-block">
+                    <h5 class="fs-2 title-legend-carousel">Prático, fácil, moderno</h5>
+                    <p>Você resolve tudo sem estresse.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/mockup-01.svg" class="d-block img-carousel" alt="...">
+                <div class="carousel-caption text-end legend-carousel d-none d-md-block">
+                    <h5 class="fs-2 title-legend-carousel">Domine o seu dinheiro com uma conta 100% digital</h5>
+                    <p>Cartão visa internacional, zero mensalidade e anuidadee investimento que rende mais que a poupança.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="section-feedbacks">
+      <h1 class="fs-2 text-light-emphasis text-center">Prático, fácil, moderno</h1>
+      <h2 class="fs-3 text-dark text-center">Você resolve tudo sem estresse</h2>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">@marciogurka</h5>
+                <p class="card-text">
+                  Valeu @banconeon! Linda embalagem e o cartão tbm é lindo!
+                  Muito amor por esse banco #bancoNeon
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">@marciogurka</h5>
+                <p class="card-text">
+                  Valeu @banconeon! Linda embalagem e o cartão tbm é lindo!
+                  Muito amor por esse banco #bancoNeon
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">@marciogurka</h5>
+                <p class="card-text">
+                  Valeu @banconeon! Linda embalagem e o cartão tbm é lindo!
+                  Muito amor por esse banco #bancoNeon
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-primary">
+      <header class="cabecalho-footer">
+        <img src="./img/logo.svg" alt="Imagem logo">
+        <div class="social-media">
+          <span class="text-light fs-6">Acompanhe nas redes sociais</span>
+          <div class="medias-icons">
+            <i class="fa-brands fa-youtube text-light"></i>
+            <i class="fa-brands fa-linkedin-in text-light"></i>
+            <i class="fa-brands fa-facebook-f text-light"></i>
+            <i class="fa-brands fa-instagram text-light"></i>
+            <i class="fa-brands fa-twitter text-light"></i>
+          </div>
+        </div>
+      </header>
+
+      <main class="content-footer p-4">
+        <article>
+          <p class="fw-bold text-light">Produtos Neon</p>
+          <p class="text-light">Cartão de crédito</p>
+          <p class="text-light">Cartão pré-pago</p>
+          <p class="text-light">Neon mais</p>
+          <p class="text-light">Investimentos</p>
+          <p class="text-light">Empréstimos</p>
+        </article>
+        <article>
+          <p class="fw-bold text-light">Conta digital PJ</p>
+          <p class="text-light">Sou MEI</p>
+          <p class="text-light">Sou ME</p>
+        </article>
+        <article>
+          <p class="fw-bold text-light">Blog</p>
+          <p class="text-light">#focanodinheiro</p>
+          <p class="text-light">O poder da comunidade</p>
+          <p class="text-light">O desafio das 52 semanas</p>
+          <p class="text-light">Planilha de gastos</p>
+        </article>
+        <article>
+          <p class="fw-bold text-light">Institucional</p>
+          <p class="text-light">Conheça a Neon</p>
+          <p class="text-light">Trabalhe conosco</p>
+          <p class="text-light">Termo de uso</p>
+          <p class="text-light">Política de privacidade</p>
+        </article>
+        <article>
+          <p class="fw-bold text-light">Ajuda</p>
+          <p class="text-light">Ouvidoria</p>
+          <p class="text-light">Fale conosco</p>
+        </article>
+        <section class="contact-center">
+          <article class="contact">
+            <img src="./img/envelope.svg" class="img-envelope" alt="Imagem de um envelope">
+            <div>
+              <span class="text-light text-contact-footer">Atendimento:</span><br>
+              <span class="text-light text-contact-footer">oi@neon.com.br(24hrs)</span>
+            </div>
+          </article>
+          <article class="contact">
+            <img src="./img/chat.svg" class="img-chat" alt="Imagem de um envelope">
+            <div>
+              <span class="text-light text-contact-footer">Imprensa:</span><br>
+              <span class="text-light text-contact-footer">inprensa@neon.com.br</span>
+            </div>
+          </article>
+        </section>
+      </main>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>

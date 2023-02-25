@@ -1,0 +1,106 @@
+:root {
+    --light-blue: #01D1DB;
+    --blue: #00B9E5;
+    --dark-blue: #02A7E1;
+    --white: #FBFAFB;
+    --grey: #C8C7CE;
+    --dark-grey: #4D4C54;
+    --yellow: #FDC80D;
+    --dark-yellow: #B17804;
+}
+
+body {
+    background: var(--blue);
+    height: 100vh;
+}
+
+.img-logo:hover {
+    cursor: pointer;
+}
+
+.nav-menu {
+    background: linear-gradient(45deg, var(--dark-blue), var(--blue), var(--light-blue));
+}
+
+.button {
+    border: 1px solid var(--white);
+}
+
+.img-carousel {
+    object-fit: cover;
+    height: 300px;
+    margin: 1em auto;
+}
+
+.legend-carousel {
+    width: 300px;
+}
+
+.title-legend-carousel {
+    color: var(--yellow);
+}
+
+/*config section feedbacks*/
+.section-feedbacks {
+    margin: 5em 0;
+}
+
+.card {
+    margin: .3em 0;
+}
+
+.card-text {
+    color: var(--dark-grey);
+}
+
+.card-body {
+    background-color: var(--grey); 
+}
+
+/*config footer*/
+.cabecalho-footer {
+    margin: 0 8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--blue);
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    padding: 2em 0;
+}
+
+.fa-brands {
+    margin: 0 .2em;
+}
+
+.content-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-center {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    background: var(--blue);
+    border-radius: 4px;
+    padding: .5em;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+
+.text-contact-footer {
+    font-size: 14px;
+}
